@@ -57,7 +57,7 @@ body {
   }
   
 #home{
-    background: url(/portfolio/img/sydney.jpg);
+    background: url(img/sydney.jpg);
     text-align: center;
     width: 100%;
     height: 500px;
