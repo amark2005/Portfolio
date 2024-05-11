@@ -160,6 +160,7 @@ body {
   align-items: center;
   width: auto;
   height: auto;
+  flex:1;
  
 
 }
@@ -175,6 +176,7 @@ body {
     align-items: flex-start;
     width: 100%;
     flex-direction: column;
+    flex:1
 }
 .abt-bio button{
   display: flex;
@@ -285,13 +287,12 @@ button:hover{
 }
 .card {
   display: flex;
-  width: 100%;
+  width:fit-content;
   height: auto;
   background: transparent;
-  display: flex;
+
   align-items: center;
   justify-content: center;
-  margin: 0;
   /*right:20%;
   left:40%; */
   gap: 20px;
