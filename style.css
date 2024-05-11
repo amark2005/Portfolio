@@ -261,17 +261,19 @@ button:hover{
   color: #bac964
 }
 .card {
-  width: fit-content;
-  height: fit-content;
+  display: flex;
+  width: 100%;
+  height: auto;
   background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  right:20%;
-  left:40%;
+  margin: 0;
+  /*right:20%;
+  left:40%; */
   gap: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+ 
 }
 
 /* for all social containers*/
@@ -308,7 +310,7 @@ button:hover{
 
 .socialContainer:active {
   transform: scale(0.9);
-  transition-duration: .3s;
+  transition-dluration: .3s;
 }
 
 .socialSvg {
