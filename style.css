@@ -333,7 +333,7 @@ button:hover{
 
 .socialContainer:active {
   transform: scale(0.9);
-  transition-dluration: .3s;
+  transition-duration: .3s;
 }
 
 .socialSvg {
