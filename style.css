@@ -77,7 +77,7 @@ body {
       position: absolute;
       z-index: 1;
       text-align: center;
-      padding-top: 430px;
+      padding-top: 300px;
 
 }
 #home p{
@@ -86,7 +86,7 @@ body {
     color: #F4EEE0;
     position: absolute;
     z-index: 1;
-    padding-top: 560px;
+    padding-top: 450px;
   
 }
 #resume{
@@ -147,15 +147,19 @@ body {
 }
 
 #about{
-  width: 100%;
-    height: fit-content;
-    padding-top: 50px;
-    display: flex;
+ padding-top: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
 }
 .abt-img{
   
-width: fit-content;
-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
  
 
 }
@@ -166,10 +170,16 @@ height: fit-content;
   margin: 50px 60px
 }
 .abt-bio{
-  margin-left: 0px;
-  margin-top: 170px;
-  height: fit-content;
-  width: fit-content
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+}
+.abt-bio button{
+  display: flex;
+    width: auto;
+    padding:50px 0px; 
 }
 .box {
   width: 140px;
@@ -248,6 +258,12 @@ button:hover{
   text-shadow: 0 0 10px rgba(186, 201, 100, 1);
   
 }
+.con-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
 .con-title h1{
  text-align: center;
@@ -255,10 +271,17 @@ button:hover{
 }
 .con-mycon{
   margin-top: 50px;
-  text-align: center
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:auto;
+  flex-direction: column;
 }
 .con-mycon h3{
-  color: #bac964
+  color: #bac964;
+
 }
 .card {
   display: flex;
