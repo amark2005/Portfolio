@@ -10,3 +10,6 @@ function insta(){
 }function whatsapp(){
     window.open("https://api.whatsapp.com/send?phone=919894458144&text=",'_blank')
 }
+function link(){
+    window.open("https://www.linkedin.com/in/amar-keshav-735176204",'_blank');
+}
